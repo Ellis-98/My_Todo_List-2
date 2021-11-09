@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- Début du head -->
+<head>
+
+<!-- Les Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="msapplication-tap-highlight" content="no"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Référencement -->
+  <meta name="description" content="Page d'accueil et fiche de présentation.">
+  <meta name="keywords" content="discord, to-do, list, projet, github, html, css" />
+  <meta name="author" content="Pierre Schaefer" />
+
+<!-- Partage Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pierre Schaefer | Web@cadémie">
+  <meta property="og:url" content="index.html">
+  <meta property="og:image" content="#">
+  <meta property="og:description" content="Page d'accueil et fiche de présentation.">
+
+<!-- Partage Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Pierre Schaefer | Web@cadémie">
+  <meta name="twitter:description" content="Page d'accueil et fiche de présentation.">
+  <meta name="twitter:image:src" content="#">
+
+<!-- Nom de la page + Logo Lien -->
+  <title>Pierre Schaefer | Web@cadémie</title>
+  <link rel="image_src" type="image/jpeg" href="#">
+
+<!-- Début des liens vers les feuilles CSS -->
+  <link href="https://fonts.gstatic.com" rel="preconnect" type="text/css" media="all"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" type="text/css" media="all"/>
+  <link href="./css/style.css" rel="stylesheet" type="text/css" media="all"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" rel="stylesheet" type="text/css" media="all"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" type="text/css" media="all"/>
+
+
+<!-- Favicon (icone site aperçu)  -->
+  <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./favicon/favicon.png" type="image/png">
+  <link rel="icon" sizes="32x32" href="./favicon/favicon-32.png" type="image/png">
+  <link rel="icon" sizes="64x64" href="./favicon/favicon-64.png" type="image/png">
+  <link rel="icon" sizes="96x96" href="./favicon/favicon-96.png" type="image/png">
+  <link rel="icon" sizes="196x196" href="./favicon/favicon-196.png" type="image/png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-touch-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="favicon/favicon-144.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+
+<!-- Fin du head -->
+  </head>
+
+<!-- Début du body -->
+  <body>
+
+<!-- Début de la nav-bar -->
+  <main>
+  <section class="glass">
+  <div class="dashboard">
+  
+  <div class="user">
+  <img src="./images/avatar.png" alt="" />
+  <h3>Pierre Schaefer</h3>
+  <p>Web@cadémie</p>
+  </div>
+          
+  <div class="links">
+            
+  <div class="link">
+  <img src="./images/app.png" alt="" />
+  <a href="#"><h2>My_Todo_List.2</h2></a>
+  </div>
+     
+  <div class="link">
+  <img src="./images/download.png" alt="" />
+  <a href="https://github.com/Ellis-98/My-To-do/archive/master.zip"><h2>Téléchargements</h2></a>
+  </div>
+  
+  <div class="link">
+  <img src="./images/about.png" alt="" />
+  <a href="./cv/index.html"><h2>À propos</h2></a>
+  </div>
+  </div>
+  
+  <div class="pro">
+  <h2>Retrouvez moi sur <a href="https://github.com/Ellis-98">GitHub</a>...</h2>
+  <img src="./images/git.png" alt="" />
+  </div>
+  </div>
+<!-- Fin de la nav-bar -->
+
+<!-- Début du contenu -->
+  <div class="tasks">
+
+  <div class="status">
+  <h1>My_Todo_List.2</h1>
+  </div>
+
+  <h2>Ajouter une nouvelle tâche :</h2>
+  <div class="cards">
+  <div class="card">
+  <form>
+  <input type="text" class="todo-input" placeholder="Ajouter une nouvelle tâche ..."/>
+  <button class="todo-button" type="submit">
+  <i class="fas fa-plus-square"></i>
+  </button>
+  <div class="select">
+  <select name="todos" class="filter-todo">
+  <option value="all">Lister toutes les tâches.</option>
+  <option value="completed">Lister les tâches terminées.</option>
+  <option value="uncompleted">Lister les tâches en cours.</option>
+  </select>
+  </div>
+  </form>
+  </div>
+  </div>
+
+  <h2>Liste des tâches :</h2>
+  <div class="cards">
+  <div class="card">
+  <div class="todo-container">
+  <ul class="todo-list"></ul>
+  </div>
+  </div>
+
+  </div>
+  </div>
+  </section>
+  </main>
+
+  <div class="circle1"></div>
+  <div class="circle2"></div>
+<!-- Fin du contenu -->
+
+<!-- Début des liens vers les scripts -->
+<script src="./js/app.js"></script>
+<!-- Fin des liens vers les scripts -->
+
+</body>
+</html>
+
